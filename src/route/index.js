@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import Single from '../components/Single.vue'
+import Member from '../components/Member.vue'
 
 // router定義
 const routes = [
@@ -11,6 +12,10 @@ const routes = [
   {
     path: '/single',
     component: Single,
+  },
+  {
+    path: '/member',
+    component: Member,
   }
 ]
 
