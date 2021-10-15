@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
-import Nogi from '../components/Nogi.vue'
+import Single from '../components/Single.vue'
+import Member from '../components/Member.vue'
 
 // router定義
 const routes = [
@@ -9,8 +10,12 @@ const routes = [
     component: Home,
   },
   {
-    path: '/nogi',
-    component: Nogi,
+    path: '/single',
+    component: Single,
+  },
+  {
+    path: '/member',
+    component: Member,
   }
 ]
 
