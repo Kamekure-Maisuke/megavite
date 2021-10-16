@@ -15,6 +15,9 @@
         <button class="btn btn-ghost btn-sm rounded-btn">
           <router-link to="/member">メンバー</router-link>
         </button>
+        <button class="btn btn-ghost btn-sm rounded-btn">
+          <router-link to="/blog">ブログ</router-link>
+        </button>
       </div>
     </div>
     <div class="flex-none">
