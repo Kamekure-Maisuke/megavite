@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import Single from '../components/Single.vue'
 import Member from '../components/Member.vue'
+import Blog from '../components/Blog.vue'
 
 // router定義
 const routes = [
@@ -16,6 +17,10 @@ const routes = [
   {
     path: '/member',
     component: Member,
+  },
+  {
+    path: '/blog',
+    component: Blog,
   }
 ]
 

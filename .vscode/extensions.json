@@ -1,3 +1,8 @@
 {
-  "recommendations": ["johnsoncodehk.volar"]
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "antfu.vite",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss"
+  ]
 }
