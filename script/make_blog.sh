@@ -2,7 +2,8 @@
 set -e
 export LC_ALL=C
 
-TODAY=$(date '+%Y-%m-%d')
+NOW=$(date '+%Y-%m-%d_%H:%M:%S')
+TODAY="${NOW%_*}"
 CONTENTS_DIR="$(dirname "$0")/../contents"
 
 # 存在してたら作成しない
@@ -21,7 +22,7 @@ tags:
   - "タグ1"
   - "タグ2"
   - "タグ3"
-created_at: yyyy-mm-dd hh:mm
+created_at: $NOW
 ---
 
 - サンプル本文
